@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.navbar .logo {
+    position: absolute;
+    left: 150px;
+    width: 240px;
+    height: 50px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.playlist-card {
+    height: 200px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.playlist-card img {
+    width: 100%;
+    height: 150px;
+}
+
+.playlist-card h3 {
+    padding: 10px;
+    margin: 0;
+}
+
+.playlist-card:hover {
+    transform: scale(1.05);
+}
+
+.bottom-design {
+    background-color: #2c3e50;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
